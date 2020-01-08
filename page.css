@@ -1,2 +1,22 @@
-.page { line-height: 4px
-padding : 40px; }
+
+ul{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-auto-rows: 20px;
+	background-color: blue;
+}
+
+li{
+	color:white;
+	list-style: none;
+	text-transform: bold
+}
+
+#content{
+	box-sizing: border-box;
+	text-align:center;
+	margin:1.5em auto;
+	max-width: 880px;
+	padding:1em 3em;
+
+}
